@@ -1,0 +1,14 @@
+
+
+<%- include ("partials/header") -%> 
+<h1>Hello Welcome to the Article</h1>
+
+ <% for( let i = 0; i < homeArray.length; i++ ) { %>
+     <h1><%= homeArray[i].title %>  </h1>
+     <p> <%= homeArray[i].content %>  </p>
+ <% } %>
+
+
+
+ <%- include ("partials/footer") -%> 
+
